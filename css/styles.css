@@ -1,3 +1,87 @@
-/* Heder */
-.logotyp {color:#4D5AE5;}
-.logotyp-tex {color:#2E2F42}
+body {
+	font-family: "Roboto", sans-serif;
+}
+/* Header */
+.first-logo {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.33;
+	letter-spacing: 0.03em;
+	text-align: left;
+	color: #4d5ae5;
+}
+.second-logo {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.33;
+	letter-spacing: 0.03em;
+	text-align: left;
+	color: #2e2f42;
+}
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+
+.header-link {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	text-align: left;
+	color: #2e2f42;
+}
+.header-mail {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+.header-tel {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	text-align: left;
+	color: #434455;
+}
+/* Hero section */
+
+.hero-title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #ffffff;
+	background: #2e2f42;
+}
+
+.hero-but {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	background: #4d5ae5;
+}
+/* About */
+.section-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+.section-headline {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
