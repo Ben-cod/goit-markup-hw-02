@@ -8,6 +8,7 @@
 body {
 	font-family: "Roboto";
 	letter-spacing: 0.02em;
+	font-weight: 400;
 }
 .visually-hidden {
 	position: absolute;
@@ -58,12 +59,14 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--color-paragraf);
+	font-style: normal;
 }
 .header-tel {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--color-paragraf);
+	font-style: normal;
 }
 .header-nav .link:hover,
 .header-nav .link:focus {
