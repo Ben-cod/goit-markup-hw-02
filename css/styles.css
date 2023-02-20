@@ -4,11 +4,15 @@
 	--color-paragraf: #434455;
 	--color-button: #4d5ae5;
 	--button-background: #f4f4fd;
+	--important-background: #2e2f42;
+	--footer-text-color: #e7e9fc;
+	--primery-title-color: #ffffff;
+	--section-fon-color: #f4f4fd;
+	--footer-logo-color: #f4f4fd;
 }
 body {
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	letter-spacing: 0.02em;
-	font-weight: 400;
 }
 .visually-hidden {
 	position: absolute;
@@ -29,7 +33,7 @@ body {
 	font-weight: 800;
 	line-height: 1.33;
 	letter-spacing: 0.03em;
-	color: #4d5ae5;
+	color: var(--brend-second);
 }
 .second-logo {
 	font-family: "Raleway", sans-serif;
@@ -37,7 +41,7 @@ body {
 	font-size: 18px;
 	line-height: 1.33;
 	letter-spacing: 0.03em;
-	color: #2e2f42;
+	color: var(--brend-color);
 }
 
 .list {
@@ -51,18 +55,15 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
-	letter-spacing: 0.02em;
 	color: var(--brend-color);
 }
 .header-mail {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--color-paragraf);
 	font-style: normal;
 }
 .header-tel {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--color-paragraf);
@@ -74,18 +75,18 @@ body {
 }
 /* Hero section */
 .hero {
-	background: #2e2f42;
+	background: var(--important-background);
 }
 
 .hero-title {
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.1;
-	letter-spacing: 0.02em;
-	color: #ffffff;
+	color: var(--primery-title-color);
 }
 
 .hero-but {
+	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -104,14 +105,11 @@ body {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
-	letter-spacing: 0.02em;
 	color: var(--brend-color);
 }
 .section-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
-	letter-spacing: 0.02em;
 	color: var(--color-paragraf);
 }
 /* About */
@@ -119,29 +117,26 @@ body {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
-	letter-spacing: 0.02em;
 	color: var(--brend-color);
 }
 .section-fon {
-	background: #f4f4fd;
+	background: var(--section-fon-color);
 }
 /* footer */
 .footer-fon {
-	background: #2e2f42;
+	background: var(--important-background);
 }
 .footer-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: #e7e9fc;
+	color: var(--footer-text-color);
 }
 .footer-logo {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.12;
 	letter-spacing: 0.03em;
-	color: #f4f4fd;
+	color: var(--footer-logo-color);
 }
 /* Portfolio */
 
@@ -152,13 +147,13 @@ body {
 	color: var(--brend-color);
 }
 .portfolio-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--color-paragraf);
 }
 /* portfolio-button */
 .portfolio-button {
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
